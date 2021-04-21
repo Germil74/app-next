@@ -10,8 +10,8 @@ const MainLayer = ({ children }) => {
         <>
             <Head>
                 <title>{title}</title>
-                <meta name="description" content={description}></meta>
-                <meta name="keywords" content={keywords}></meta>
+                <meta name="description" content={description} />
+                <meta name="keywords" content={keywords} />
             </Head>
             <PersistentDrawerLeft>
                 {children}

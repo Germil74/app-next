@@ -1,12 +1,18 @@
-﻿const Documentation = (props) => {
+﻿import {AppHeader} from "../../components/Header";
+
+const Documentation = (props) => {
     return (
-        <h1>Страница Документы</h1>
+        <>
+            <AppHeader />
+            <h1>Страница Документы</h1>
+        </>
+
     )
     }
-    
+
     export default Documentation
-    
-    
+
+
     export async function getStaticProps(context) {
         return {
           props: {
