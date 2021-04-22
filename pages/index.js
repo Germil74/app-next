@@ -3,14 +3,8 @@ import PersistentDrawerLeft from '../components/Panel'
 
 const Home = (props) => {
     return (
-        <>
-         
-            <h1>Привет Next.js</h1>
-
-
-            <Button variant="contained" color="primary">
-                Hello World
-    </Button>
+        <>  
+            <h1 style={{textAlign:'center'}}>Главная страница. Здесь ведутся работы.</h1>
         </>
     )
 }
