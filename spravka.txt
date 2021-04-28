@@ -9,7 +9,7 @@ yarn add next react react-dom
     "start": "next start"
   },
   ###################################
-создаём папку pages и в ней файл index.js с Home функцией (начальная страница)
+создаём папку pages и в ней файл index_ggg.js с Home функцией (начальная страница)
 добавил _app
 добавил styles
 yarn add sass
