@@ -1,10 +1,8 @@
-﻿import {AppHeader} from "../../components/Header";
-
+﻿
 const Documentation = (props) => {
     return (
         <>
-            <AppHeader />
-            <h1>Страница Документы</h1>
+            <h1 style={{textAlign:'center'}}>Страница Документы</h1>
         </>
 
     )

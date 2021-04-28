@@ -1,6 +1,6 @@
 ﻿const Contacts = (props) => {
     return (
-        <h1>Страница Контакты </h1>
+        <h1 style={{textAlign:'center'}}>Страница Контакты </h1>
     )
     }
     
